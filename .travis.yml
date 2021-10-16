@@ -17,7 +17,7 @@ cache:
   - /home/travis/virtualenv
 
 install:
-- pip install -U pip==20.2.1
+- pip install -U pip==21.3
 - .ci/${MODE}_install.py
 
 # Travis has a 4MB log limit (https://github.com/travis-ci/travis-ci/issues/1382), but verbose Mitogen logs run larger than that
